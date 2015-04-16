@@ -1,0 +1,211 @@
+/* CSS Document */
+
+
+.grid .audio-default{width:300px; height:420px;}				
+					
+.grid .square-small .caption__overlay{padding: 2px;}
+.grid .square-medium .caption__overlay{padding: 5px;}
+.grid .square-large .caption__overlay,
+.grid .landscape-medium .caption__overlay{padding: 15px; margin-bottom:7px; padding-top:13px}
+.grid .landscape-large .caption__overlay{padding: 15px; margin-bottom:15px;}
+
+
+.grid .square-small{width:60px; height:60px;}
+.grid .square-medium{width:120px; height:120px;}
+.grid .square-large{width:240px; height:240px;}
+
+.grid .landscape-small{width:120px; height:60px;}
+.grid .landscape-medium{width:300px; height:180px;}
+.grid .landscape-large{width:480px; height:300px;}
+
+
+
+.grid .portrait-small{width:120px; height:180px;}
+.grid .portrait-medium{width:240px; height:360px; }
+.grid .portrait-medium  .caption__overlay{ margin-bottom:15px;}
+
+
+
+.grid .portrait-large{width:360px; height:540px;}
+
+.grid .text-only{width:240px; height:60px;}
+.grid .text-only .caption__overlay,
+.grid .text-only .caption__overlay__title{transform: translateY(0);}
+.grid .text-only h2 {
+font-size: 13px;
+line-height: 1.3;
+}
+
+
+
+
+.grid .square-small .caption__overlay__title,
+.grid .square-small p {
+font-size: 7px;
+line-height: 9px;
+margin: 4px;
+}
+
+.grid .square-small p {
+font-size: 7px;
+line-height: 9px;
+margin: 0px;
+}
+
+
+
+.grid .portrait-small .caption__overlay__title,
+.grid .square-medium .caption__overlay__title {
+font-size: 12px;
+}
+.grid .portrait-small p,
+.grid .square-medium p {
+font-size: 11px;
+}
+
+.grid .landscape-small .caption__overlay__title{
+font-size: 16px;
+}
+.grid .landscape-small  p {
+font-size: 14px;
+}
+
+.grid .portrait-medium .caption__overlay__title,
+.grid .landscape-medium .caption__overlay__title{ 
+font-size: 20px;
+line-height:1.15em;
+}
+
+.grid .landscape-large p,
+.grid .landscape-medium p,
+.grid .portrait-large p,
+.grid .portrait-medium p{ 
+
+line-height:1.3em;
+}
+
+
+
+
+@media screen and (max-width: 527px) {
+
+ .grid .landscape-large{width:360px; height:200px;}
+
+}
+
+@media screen and (max-width: 399px) {
+	
+	.grid .audio-default {
+width: 100%;
+	}
+
+  .grid .text-only{width:100%;  height:60px;}
+.grid .landscape-medium{width:50%;  height:120px;}
+.grid .landscape-medium .caption__overlay,
+.grid .square-medium .caption__overlay,
+.grid .portrait-medium .caption__overlay{ padding:5px}
+ .grid .landscape-large{width:100%; height:240px;}
+ .grid .landscape-small{width:33%;height:60px;}
+ .grid .square-small {width: 25%;height:60px;}
+ .grid .square-medium {width: 50%; height: 180px;}
+  .grid .square-large {width: 100%; height:360px}
+  
+.grid .portrait-small{width:33%; height: 120px; }
+.grid .portrait-medium{width:50%;height: 240px; }
+
+
+
+
+.grid .landscape-medium p,
+.grid .portrait-medium p,
+.grid .square-medium p {
+font-size: 12px !important;
+line-height:1.1em !important;
+}
+
+
+.grid .portrait-large{width:100%; }
+
+
+.grid .landscape-small .caption__overlay__title {
+font-size: 9px !important;
+}
+
+.grid .portrait-medium .caption__overlay__title,
+.grid .landscape-medium .caption__overlay__title,
+.grid .square-medium .caption__overlay__title
+ {
+font-size: 13px !important;
+}
+
+
+
+.grid .landscape-large .caption__overlay__title {
+font-size: 22px !important;
+}
+
+.grid .landscape-large p {
+
+line-height:1.1em !important;
+}
+
+.grid .landscape-large .caption__overlay{ margin-bottom:18px;}
+
+
+
+.grid .portrait-large .caption__overlay__title {
+font-size: 22px !important;
+}
+
+
+ /*
+ .grid .square-small{width:60px; height:60px;}
+.grid .square-medium{width:120px; height:120px;}
+.grid .square-large{width:240px; height:240px;}
+
+
+.grid .landscape-medium{width:360px; height:240px;}
+.grid .landscape-large{width:480px; height:300px;}
+
+
+
+.grid .portrait-small{width:120px; height:180px;}
+.grid .portrait-medium{width:240px; height:360px;}
+.grid .portrait-large{width:300px; height:480px;}
+
+.grid .text-only{width:360px; height:120px;}
+*/
+
+}
+
+
+  .grid .facebook {
+height: 60px !important;
+}
+.grid .facebook .caption__overlay__title {
+font-size: 11px !important;
+}
+
+
+
+
+
+.landscape-thumbnail .grid .item{width:5% !important; height:50px !important;}
+.landscape-thumbnail .grid .item  .caption__overlay{margin:0px !important;}
+.landscape-thumbnail .grid .item  .caption__overlay__title{font-size:10px !important; margin:0px !important;}
+.landscape-thumbnail .grid .item  p{font-size:8px !important; margin:0px !important;}
+
+.landscape-small .grid .item{width:10% !important; height:100px !important;}
+.landscape-small .grid .item  .caption__overlay{margin:0px !important;}
+.landscape-small .grid .item  .caption__overlay__title{font-size:12px !important; margin:0px !important;}
+.landscape-small .grid .item  p{font-size:10px !important; margin:0px !important;}
+
+.landscape-medium .grid .item{width:20% !important; height:200px !important;}
+.landscape-medium .grid .item  .caption__overlay{margin:0px !important;}
+.landscape-medium .grid .item  .caption__overlay__title{font-size:20px !important; margin:0px !important;}
+.landscape-medium .grid .item  p{font-size:14px !important; margin:0px !important;}
+
+.landscape-large .grid .item{width:33% !important; height:300px !important;}
+.landscape-large .grid .item  .caption__overlay{margin:0px !important;}
+.landscape-large .grid .item  .caption__overlay__title{font-size:26px !important; margin:0px !important;}
+.landscape-large .grid .item  p{font-size:16px !important; margin:0px !important;}
